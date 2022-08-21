@@ -1,0 +1,26 @@
+/* CAROUSEL STYLES */
+.carousel {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-container .btn-prev, .carousel-container .btn-next{
+    width: 4%;
+    margin: 0 auto;
+    font-size: 2em;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border: rgba(0, 0, 0, 0.411) solid 1px;
+}
+
+.carousel-container .btn-prev:hover, .carousel-container .btn-next:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}

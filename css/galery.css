@@ -1,0 +1,57 @@
+/* BIG TITLES */
+h2 {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+/* GALERY STYLES */
+.galery {
+    display: flex; /* This is a DISPLAY FLEX */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.card img {
+    width: 75%;
+}
+
+.card {
+    width: 100%; /* Width of the card */
+    display: flex; /* Flex to card */
+    flex-direction: column; /* Direction flex like a column */
+    align-items: center; /* Align items in y axis */
+    text-align: center; /* Align text in center */
+    height: 16em; /* Height of card */
+    padding: 1em; /* Padding of the card */
+    justify-content: space-between; /* Flow of content in axis */
+    border: 1px solid var(--info); /* Border */
+}
+
+.card button{
+    width: 50%;
+    padding: 0.4em;
+    font-size: 1em;
+    background-color: rgb(206, 55, 55);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(78, 78, 78, 0.856);
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: none;
+}
+
+.card * {
+    width: 100%;
+}

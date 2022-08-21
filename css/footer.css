@@ -1,0 +1,29 @@
+/* FOOTER STYLE */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: var(--secondary);
+    height: 4em;
+    color: var(--primary);
+    border-top: 2px solid var(--info);
+    min-height:50px;
+    margin-top:auto;
+}
+
+footer img {
+    margin: 0 1.8em;
+}
+
+.copy {
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+.brands {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
