@@ -10,7 +10,7 @@ h2 {
 .galery {
     display: flex; /* This is a DISPLAY FLEX */
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
 }
 
 .row {
