@@ -1,0 +1,106 @@
+/* VARIABLES */
+:root {
+    --primary: #fff;
+    --secondary: rgb(206, 55, 55);
+    --info: #000;
+}
+
+
+/* STYLES */
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Big Titles */
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+/* Galery Styles */
+.galery {
+    display: flex; /* This is a DISPLAY FLEX */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.card img {
+    width: 75%;
+    
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 16em;
+    padding: 1em;
+    justify-content: space-between;
+    border: 1px solid var(--info);
+}
+
+.card button{
+    width: 50%;
+    padding: 0.4em;
+    font-size: 1em;
+    background-color: rgb(206, 55, 55);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(78, 78, 78, 0.856);
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: none;
+}
+
+.card * {
+    width: 100%;
+}
+
+/* Carousel Style */
+.carousel {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-container .btn-prev, .carousel-container .btn-next{
+    width: 4%;
+    margin: 0 auto;
+    font-size: 2em;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-container .btn-prev:hover, .carousel-container .btn-next:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+
