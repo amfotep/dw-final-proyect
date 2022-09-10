@@ -1,4 +1,6 @@
 /* NAVBAR STYLES */
+
+/* NAVBAR CONTAINER */
 .navbar-container {
     display: flex;
     width: 100%;
@@ -7,14 +9,23 @@
     height: 3.5em; 
     border-bottom: 2px solid var(--info);
     min-height:60px;
+    transition: 0.5s;
 }
 
+/* MENU BAR BUTTON */
+.navbar-container .menu-bar {
+    display: none;
+    cursor: pointer;
+}
+
+/* NAVBAR CONTENT */
 .navbar-container .logo {
     width: 25%;
     display: flex;
     align-items: center;
     margin-left: 1em;
     color: var(--primary);
+    cursor: pointer;
 }
 
 .navbar-container .navbar{
@@ -41,10 +52,98 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10%;
+    width: 13%;
 }
 
 .navbar-container .navbar ul a:hover{
     background-color: var(--primary);
     color: var(--info);
+}
+
+.toggle__navbar {
+    display: block !important;
+}
+
+.expand__navbar__container {
+    min-height: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-container .navbar ul{
+        font-size: 1.1em; 
+    }
+
+    .navbar-container .navbar ul a{
+        width: 17%;
+        padding: 0 0.2em;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-container .navbar ul{
+        font-size: 1.1em; 
+    }
+
+    .navbar-container .navbar ul a{
+        width: 17%;
+        padding: 0 0.2em;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container .navbar {
+        display: none;
+        height: auto;
+        margin-top: 0.6em;
+    }
+
+    .navbar-container .navbar ul a:hover{
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.200);
+    }
+
+    .navbar-container .navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-container .navbar ul a{
+        width: 100%;
+        padding: 0.4em;
+    }
+
+    .navbar-container {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .navbar-container .logo {
+        margin-top: 0.8em;
+        display: inline-block;
+    }
+
+    /* MENU BAR BUTTON */
+    .navbar-container .menu-bar {
+        width: 10%;
+        display: inline-block;
+        position: absolute;
+        margin-top: 0.7em;
+        right: -1em;
+    }
+
+    .navbar-container .menu-bar i {
+        height: 60%;
+        margin: auto auto;
+        font-size: 2em;
+        color: var(--primary);
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-container .menu-bar {
+        right: 0.1em;
+    }
 }

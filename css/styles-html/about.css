@@ -1,0 +1,39 @@
+main {
+    height: 75%;
+    width: 90%;
+    margin: auto auto;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+
+main article section {
+    width: 70%;
+    margin: 0 auto;
+} 
+
+main article section h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+main article section p{
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    main {
+        height: auto;
+        margin: auto auto 2em auto;
+        width: 100%;
+    } 
+}

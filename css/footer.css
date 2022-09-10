@@ -7,8 +7,8 @@ footer {
     height: 4em;
     color: var(--primary);
     border-top: 2px solid var(--info);
-    min-height:50px;
-    margin-top:auto;
+    min-height: 63px;
+    margin-top: auto;
 }
 
 footer img {

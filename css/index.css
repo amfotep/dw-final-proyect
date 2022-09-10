@@ -1,0 +1,271 @@
+/* INDEX STYLE */
+
+main {
+    width: 90%;
+    margin: 0 auto 8em auto;
+}
+
+.info h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 4%;
+}
+
+.info .info-body {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.info .info-body img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.info .info-body .info-text-btn p{
+    font-size: 0.9em;
+}
+
+.info .info-body .info-text-btn {
+    font-size: 1.5em;
+    width: 70%;
+    margin-right: 4em;
+}
+
+
+.info .info-body .info-text-btn button{
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 4%;
+    background-color: rgb(206, 55, 55);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: 2px 2px rgba(78, 78, 78, 0.856);
+    cursor: pointer;
+}
+
+.info .info-body .info-text-btn button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: none;
+}
+
+.main-title {
+    text-align: center;
+    margin: 2% 0;
+    font-size: 2.5em;
+}
+
+.img-banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4% 0 7% 0;
+    height: 30%;
+}
+
+.img-banner div{
+    height: 100%;
+    width: 30%;
+    margin: 1em 0;
+}
+
+.info .info-img {
+    height: 20em;
+}
+
+main .img-banner div img {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+    
+    .img-banner {
+        height: auto;
+    }
+
+    .info .info-body .info-text-btn {
+        font-size: 1.3em;
+        width: 50%;
+        margin: auto 4em auto 0;
+    }
+
+    .info .info-body img{
+        width: 100%;
+        border-radius: 10px;
+        height: 40%;
+    }
+
+    .info .info-img {
+        height: 40em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info .info-body .info-text-btn p{
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    .info .info-body .info-text-btn button{
+        margin-top: 2em;
+        width: 30%;
+    }
+    main {
+        margin: 0 auto 3em auto;
+    }
+}
+
+@media screen and (max-width: 968px) {
+
+    .img-banner {
+        height: auto;
+    }
+
+    .img-banner div{
+        height: 100%;
+        margin: 1em 0;
+        width: 40%;
+    }
+    .info .info-body .info-text-btn {
+        font-size: 1.3em;
+    }
+    .info .info-body .info-text-btn {
+        font-size: 1.3em;
+        width: 50%;
+    }
+    .info .info-body img{
+        width: 100%;
+        border-radius: 10px;
+        height: 40%;
+    }
+
+    .info .info-img {
+        height: 40em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info .info-body .info-text-btn button{
+        margin-top: 2em;
+        width: 40%;
+    }
+
+    .info .info-body .info-text-btn p{
+        text-align: justify;
+    }
+    
+    main {
+        margin: 0 auto 3em auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .img-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: 70em;
+    }
+
+    .img-banner div{
+        width: 100%;
+        height: 100%;
+        margin: 1em 0;
+    }
+
+    main .img-banner div img {
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+    }
+
+    .info {
+        margin: 2em 0;
+    }
+
+    .info .info-body {
+        flex-direction: column;
+        margin: 1em auto;
+    }
+
+    .info .info-body .info-img{
+        display: none;
+    }
+
+    .info .info-body .info-text-btn {
+        width: 100%;
+    }
+
+    .info .info-body .info-text-btn button {
+        width: 50%;
+    }
+    
+    main {
+        margin: 0 auto 2em auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .img-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: 70em;
+    }
+
+    .img-banner div{
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    main .img-banner div img {
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+    }
+
+    .info {
+        margin: 2em 0;
+    }
+
+    .info .info-body {
+        flex-direction: column;
+        margin: 1em auto;
+    }
+
+    .info .info-body img{
+        display: none;
+    }
+
+    .info .info-body .info-img{
+        display: none;
+    }
+
+    .info .info-body .info-text-btn {
+        width: 100%;
+    }
+
+    .info .info-body .info-text-btn button {
+        width: 50%;
+        margin-top: 7%;
+    }
+
+    main {
+        margin: 0 auto 2em auto;
+    }
+}

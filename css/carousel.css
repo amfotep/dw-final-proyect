@@ -24,3 +24,20 @@
     background-color: var(--secondary);
     color: var(--primary);
 }
+
+
+@media screen and (max-width: 968px) {
+
+    .carousel-container .btn-prev, .carousel-container .btn-next{
+        width: 6%;
+        border-radius: 5px;
+    }
+
+    .carousel-container .btn-next{
+        margin: 0 auto 0 0.5em;
+    }
+
+    .carousel-container .btn-prev {
+        margin: 0 0.5em 0 auto;
+    }
+}
