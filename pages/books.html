@@ -35,9 +35,9 @@
     
         <!-- CAROUSEL -->
         <div class="carousel-container">
-            <button class="btn-prev"> &lt; </button>
+            <button class="btn-prev" id="btn-prev"> &lt; </button>
             <div class="carousel">
-                <div class="row">
+                <div class="row" id="carousel-row">
                     <div class="card">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Universum.jpg/300px-Universum.jpg" alt="">
                         <h3>Title</h3>
@@ -70,14 +70,14 @@
                     
                 </div>
             </div>
-            <button class="btn-next">&gt;</button>
+            <button class="btn-next" id="btn-next">&gt;</button>
         </div>
     
         <h2>All books</h2>
     
         <!-- GALERY -->
         <section class="galery">
-            <div class="row">
+            <div class="row" id="gallery-row">
                 <div class="card">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Universum.jpg/300px-Universum.jpg" alt="">
                     <h3>Title</h3>
@@ -139,5 +139,6 @@
     </footer>
 
     <script type="module" src="../js/events.mjs"></script>
+    <script type="module" src="../js/services/api.mjs"></script>
 </body>
 </html>

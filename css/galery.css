@@ -84,6 +84,7 @@ h2 {
 
     .card {
         margin-bottom: 1em;
+        height: 100%;
     }
 
     .card img {
@@ -105,6 +106,7 @@ h2 {
 
     .card {
         margin-bottom: 1em;
+        height: 100%;
     }
 
     .card img {
@@ -127,7 +129,7 @@ h2 {
 
     .card {
         margin-bottom: 1em;
-        height: 16em;
+        height: 100%;
     }
 
     .card img {
